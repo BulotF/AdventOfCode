@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="enoBuild" basedir="." default="day6-bis">
+
+    <!-- Le programme principal est un pipeline XSLT : un enchaînement de transformations XSLT -->
+
+    <target name="day6-bis">
+        <!-- Les transformations doivent prendre en entrée un fichier xml.
+    Lorsque le besoin concerne uniquement un fichier non XML, 
+    on est obligé de les appliquer à un ficher XML quand même pour avoir une balise racine -->
+        <xslt in="../empty.xml"
+            out="temp/day6.xml"
+            style="xslt/lecture_texte.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+            <!-- l'adresse du paramètre est relative au programme xslt -->
+            <param name="text-file" expression="../in/day6.txt"/>
+        </xslt>
+        <!-- Le fichier en sortie de la première transformation a un format adapté à l'optimisation de la transformation suivante -->
+        <!-- on crée une structure arborescente à partir de la structure "à plat" -->
+        <xslt in="temp/day6.xml"
+            out="temp/day6-bis-output.xml"
+            style="xslt/day6-bis.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+        </xslt>
+        
+        <!-- Le langage XPath est parfaitement adapté à l'exploitation de la structure arborescente : chaque réponse est obtenue en 1 ligne de code  -->
+        <xslt in="temp/day6-bis-output.xml"
+            out="out/day6-bis-count.xml"
+            style="xslt/day6-count.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+        </xslt>
+    </target>
+    
+</project>
