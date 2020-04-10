@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="enoBuild" basedir="." default="day">
+    <target name="day">
+        <!-- on transforme le labyrinthe texte en xml -->
+        <xslt in="../empty.xml"
+            out="temp/day18.xml"
+            style="xslt/lecture_texte.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+            <param name="text-file" expression="../in/day18.txt"/>
+        </xslt>
+        <!-- on remplit de murs toutes les voies sans issue pour diminuer la complexité -->
+        <xslt in="temp/day18.xml"
+            out="temp/day18-deadlock.xml"
+            style="xslt/day18-deadlock.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+        </xslt>
+        <!-- on calcule tous les trajets directs entre 2 éléments utiles : clefs ; portes ; origine ; intersections -->
+        <xslt in="temp/day18-deadlock.xml"
+            out="temp/day18-distances.xml"
+            style="xslt/day18-direct-distance.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+        </xslt>
+        <!-- on calcule tous les trajets sans boucle au départ de l'origine ou d'une clef -->
+        <xslt in="temp/day18-distances.xml"
+            out="temp/day18-from-letters.xml"
+            style="xslt/day18-from-letters.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+        </xslt>
+        <!-- on calcule tous les enchainements possibles de clefs en minimisant la distance entre deux clefs consécutives -->
+        <xslt in="temp/day18-from-letters.xml"
+            out="out/day18-ordered-letters.xml"
+            style="xslt/day18-ordered-letters.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+        </xslt>
+        
+        <!-- partie 2 -->
+        <!-- On corrige le centre de la carte en donnant 4 noms différents aux points d'origine -->
+        <xslt in="temp/day18-distances.xml"
+            out="temp/day18-distances-bis.xml"
+            style="xslt/day18-new-start.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+        </xslt>
+        <!-- on calcule tous les trajets sans boucle au départ des origine ou d'une clef -->
+        <xslt in="temp/day18-distances-bis.xml"
+            out="temp/day18-from-letters-bis.xml"
+            style="xslt/day18-from-letters-bis.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+        </xslt>
+        <!-- on calcule tous les enchainements possibles de clefs en minimisant la distance entre deux clefs consécutives -->
+        <xslt in="temp/day18-from-letters-bis.xml"
+            out="out/day18-ordered-letters-bis.xml"
+            style="xslt/day18-ordered-letters-bis.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+        </xslt>
+    </target>
+
+</project>
