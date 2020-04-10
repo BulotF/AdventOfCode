@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="enoBuild" basedir="." default="day">
+    <target name="day">
+        <!-- on transforme le labyrinthe texte en xml -->
+        <xslt in="../empty.xml"
+            out="temp/day20.xml"
+            style="xslt/lecture_texte.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+            <param name="text-file" expression="../in/day20.txt"/>
+        </xslt>
+        <!-- on remplit de murs toutes les voies sans issue pour diminuer la complexité -->
+        <xslt in="temp/day20.xml"
+            out="temp/day20-deadlock.xml"
+            style="../day18 - keys maze/xslt/day18-deadlock.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+        </xslt>
+        <!-- Pour vérifier la réussite des premières étapes, on repasse le puzzle au format texte -->
+        <xslt in="temp/day20-deadlock.xml"
+            out="temp/day20-deadlock.txt"
+            style="xslt/day20-xml2txt.xsl"
+            force="true" classpath="../../lib/saxon9he.jar"/>
+        <!-- on calcule tous les trajets directs entre 2 éléments utiles : porte dimensionnelle ; intersections ; on exclut les trajets au départ de ZZ ou qui arrivent à AA -->
+        <xslt in="temp/day20-deadlock.xml"
+            out="temp/day20-distances.xml"
+            style="xslt/day20-direct-distance.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+        </xslt>
+        <!-- on enchaîne les portes dimensionnelles de manière à ne conserver que AA ou une intersection au départ ; ZZ ou une intersection à l'arrivée -->
+        <xslt in="temp/day20-distances.xml"
+            out="temp/day20-worm-distances.xml"
+            style="xslt/day20-worm-distance.xsl"
+            force="true" classpath="../../lib/saxon9he.jar"/>
+        <!-- On calcule tous les trajets au départ de AA et passant par les points d'intersection -->
+        <!-- triés par distance du point de départ ; on s'arrête dès qu'on a une arrivée à ZZ et que l'on a vérifié tous les trajets au départ d'un point à distance moindre -->
+        <xslt in="temp/day20-worm-distances.xml"
+            out="out/day20-solution1.xml"
+            style="xslt/day20-solution1.xsl"
+            force="true" classpath="../../lib/saxon9he.jar"/>
+        <!-- Idem en tenant compte du fait que l'arrivée ZZ est au niveau 0 et qu'on ne peut que gravir des niveaux -->
+        <xslt in="temp/day20-worm-distances.xml"
+            out="out/day20-solution2.xml"
+            style="xslt/day20-solution2.xsl"
+            force="true" classpath="../../lib/saxon9he.jar"/>
+    </target>
+
+</project>

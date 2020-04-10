@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<distances>
+   <cell line="3" column="34" text="TH" in="1">
+      <cell line="27" column="32" text="YO" distance="35" out="0"/>
+   </cell>
+   <cell line="3" column="40" text="PZ" in="1">
+      <cell line="27" column="40" text="RF" distance="45" out="0"/>
+   </cell>
+   <cell line="3" column="52" text="UA" in="1">
+      <cell line="27" column="48" text="RU" distance="45" out="0"/>
+   </cell>
+   <cell line="3" column="60" text="UU" in="1">
+      <cell line="27" column="62" text="UA" distance="51" out="0"/>
+   </cell>
+   <cell line="3" column="68" text="ZW" in="1">
+      <cell line="27" column="66" text="XZ" distance="59" out="0"/>
+   </cell>
+   <cell line="3" column="72" text="OK" in="1">
+      <cell line="27" column="78" text="LQ" distance="47" out="0"/>
+   </cell>
+   <cell line="27" column="32" text="YO" in="0">
+      <cell line="3" column="34" text="TH" distance="35" out="1"/>
+   </cell>
+   <cell line="27" column="40" text="RF" in="0">
+      <cell line="3" column="40" text="PZ" distance="45" out="1"/>
+   </cell>
+   <cell line="27" column="48" text="RU" in="0">
+      <cell line="3" column="52" text="UA" distance="45" out="1"/>
+   </cell>
+   <cell line="27" column="62" text="UA" in="0">
+      <cell line="3" column="60" text="UU" distance="51" out="1"/>
+   </cell>
+   <cell line="27" column="66" text="XZ" in="0">
+      <cell line="3" column="68" text="ZW" distance="59" out="1"/>
+   </cell>
+   <cell line="27" column="78" text="LQ" in="0">
+      <cell line="3" column="72" text="OK" distance="47" out="1"/>
+   </cell>
+   <cell line="32" column="3" text="RF" in="1">
+      <cell line="34" column="4" text="." distance="4" out="0"/>
+   </cell>
+   <cell line="32" column="27" text="TH" in="0">
+      <cell line="34" column="26" text="." distance="8" out="0"/>
+   </cell>
+   <cell line="34" column="3" text="BN" in="1">
+      <cell line="34" column="4" text="." distance="2" out="0"/>
+   </cell>
+   <cell line="34" column="4" text="." in="0">
+      <cell line="34" column="3" text="BN" distance="1" out="1"/>
+      <cell line="32" column="3" text="RF" distance="3" out="1"/>
+      <cell line="34" column="26" text="." distance="34" out="0"/>
+   </cell>
+   <cell line="34" column="26" text="." in="0">
+      <cell line="32" column="27" text="TH" distance="7" out="0"/>
+      <cell line="34" column="27" text="ER" distance="1" out="0"/>
+      <cell line="34" column="4" text="." distance="34" out="0"/>
+   </cell>
+   <cell line="34" column="27" text="ER" in="0">
+      <cell line="34" column="26" text="." distance="2" out="0"/>
+   </cell>
+   <cell line="34" column="83" text="BH" in="0">
+      <cell line="38" column="107" text="LP" distance="41" out="1"/>
+   </cell>
+   <cell line="38" column="107" text="LP" in="1">
+      <cell line="34" column="83" text="BH" distance="41" out="0"/>
+   </cell>
+   <cell line="40" column="3" text="ON" in="1">
+      <cell line="44" column="27" text="CU" distance="49" out="0"/>
+   </cell>
+   <cell line="44" column="27" text="CU" in="0">
+      <cell line="40" column="3" text="ON" distance="49" out="1"/>
+   </cell>
+   <cell line="44" column="107" text="CU" in="1">
+      <cell line="48" column="83" text="BT" distance="45" out="0"/>
+   </cell>
+   <cell line="48" column="3" text="YO" in="1">
+      <cell line="50" column="27" text="UK" distance="35" out="0"/>
+   </cell>
+   <cell line="48" column="83" text="BT" in="0">
+      <cell line="44" column="107" text="CU" distance="45" out="1"/>
+   </cell>
+   <cell line="50" column="27" text="UK" in="0">
+      <cell line="48" column="3" text="YO" distance="35" out="1"/>
+   </cell>
+   <cell line="50" column="107" text="GR" in="1">
+      <cell line="54" column="83" text="OK" distance="37" out="0"/>
+   </cell>
+   <cell line="54" column="3" text="ZH" in="1">
+      <cell line="54" column="27" text="GR" distance="37" out="0"/>
+   </cell>
+   <cell line="54" column="27" text="GR" in="0">
+      <cell line="54" column="3" text="ZH" distance="37" out="1"/>
+   </cell>
+   <cell line="54" column="83" text="OK" in="0">
+      <cell line="50" column="107" text="GR" distance="37" out="1"/>
+   </cell>
+   <cell line="56" column="107" text="KP" in="1">
+      <cell line="58" column="83" text="RK" distance="35" out="0"/>
+   </cell>
+   <cell line="58" column="83" text="RK" in="0">
+      <cell line="56" column="107" text="KP" distance="35" out="1"/>
+   </cell>
+   <cell line="60" column="3" text="BT" in="1">
+      <cell line="60" column="27" text="BN" distance="73" out="0"/>
+   </cell>
+   <cell line="60" column="27" text="BN" in="0">
+      <cell line="60" column="3" text="BT" distance="73" out="1"/>
+   </cell>
+   <cell line="64" column="83" text="ON" in="0">
+      <cell line="64" column="107" text="LW" distance="45" out="1"/>
+   </cell>
+   <cell line="64" column="107" text="LW" in="1">
+      <cell line="64" column="83" text="ON" distance="45" out="0"/>
+   </cell>
+   <cell line="66" column="27" text="ZW" in="0">
+      <cell line="68" column="3" text="UK" distance="39" out="1"/>
+   </cell>
+   <cell line="68" column="3" text="UK" in="1">
+      <cell line="66" column="27" text="ZW" distance="39" out="0"/>
+   </cell>
+   <cell line="72" column="107" text="IG" in="1">
+      <cell line="76" column="83" text="PZ" distance="41" out="0"/>
+   </cell>
+   <cell line="76" column="3" text="LQ" in="1">
+      <cell line="78" column="4" text="." distance="4" out="0"/>
+   </cell>
+   <cell line="76" column="27" text="UU" in="0">
+      <cell line="78" column="4" text="." distance="38" out="0"/>
+   </cell>
+   <cell line="76" column="83" text="PZ" in="0">
+      <cell line="72" column="107" text="IG" distance="41" out="1"/>
+   </cell>
+   <cell line="78" column="3" text="ZZ" in="1">
+      <cell line="78" column="4" text="." distance="2" out="0"/>
+   </cell>
+   <cell line="78" column="4" text="." in="0">
+      <cell line="78" column="3" text="ZZ" distance="1" out="1"/>
+      <cell line="76" column="27" text="UU" distance="37" out="0"/>
+      <cell line="76" column="3" text="LQ" distance="3" out="1"/>
+   </cell>
+   <cell line="83" column="32" text="LW" in="0">
+      <cell line="107" column="32" text="BH" distance="41" out="1"/>
+   </cell>
+   <cell line="83" column="38" text="KP" in="0">
+      <cell line="107" column="42" text="RU" distance="49" out="1"/>
+   </cell>
+   <cell line="83" column="50" text="ZH" in="0">
+      <cell line="107" column="46" text="AU" distance="61" out="1"/>
+   </cell>
+   <cell line="83" column="56" text="LP" in="0">
+      <cell line="107" column="56" text="RK" distance="45" out="1"/>
+   </cell>
+   <cell line="83" column="62" text="EG" in="0">
+      <cell line="107" column="62" text="ER" distance="37" out="1"/>
+   </cell>
+   <cell line="83" column="70" text="AU" in="0">
+      <cell line="107" column="66" text="EG" distance="45" out="1"/>
+   </cell>
+   <cell line="83" column="78" text="IG" in="0">
+      <cell line="106" column="78" text="." distance="44" out="0"/>
+   </cell>
+   <cell line="106" column="78" text="." in="0">
+      <cell line="83" column="78" text="IG" distance="43" out="0"/>
+      <cell line="107" column="78" text="XZ" distance="1" out="1"/>
+   </cell>
+   <cell line="107" column="32" text="BH" in="1">
+      <cell line="83" column="32" text="LW" distance="41" out="0"/>
+   </cell>
+   <cell line="107" column="42" text="RU" in="1">
+      <cell line="83" column="38" text="KP" distance="49" out="0"/>
+   </cell>
+   <cell line="107" column="46" text="AU" in="1">
+      <cell line="83" column="50" text="ZH" distance="61" out="0"/>
+   </cell>
+   <cell line="107" column="56" text="RK" in="1">
+      <cell line="83" column="56" text="LP" distance="45" out="0"/>
+   </cell>
+   <cell line="107" column="62" text="ER" in="1">
+      <cell line="83" column="62" text="EG" distance="37" out="0"/>
+   </cell>
+   <cell line="107" column="66" text="EG" in="1">
+      <cell line="83" column="70" text="AU" distance="45" out="0"/>
+   </cell>
+   <cell line="107" column="74" text="AA" in="1">
+      <cell line="106" column="78" text="." distance="6" out="0"/>
+   </cell>
+   <cell line="107" column="78" text="XZ" in="1">
+      <cell line="106" column="78" text="." distance="2" out="0"/>
+   </cell>
+</distances>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<distances>
+   <cell line="34" column="4" text=".">
+      <cell line="78" column="4" text="." distance="558" floor="12"/>
+      <cell line="106" column="78" text="." distance="133" floor="3"/>
+      <cell line="34" column="26" text="." distance="34" floor="0"/>
+   </cell>
+   <cell line="34" column="26" text=".">
+      <cell line="106" column="78" text="." distance="177" floor="-5"/>
+      <cell line="78" column="4" text="." distance="269" floor="-7"/>
+      <cell line="34" column="4" text="." distance="34" floor="0"/>
+   </cell>
+   <cell line="78" column="4" text=".">
+      <cell line="78" column="3" text="ZZ" distance="1" floor="1"/>
+      <cell line="34" column="4" text="." distance="558" floor="-12"/>
+      <cell line="34" column="26" text="." distance="269" floor="7"/>
+   </cell>
+   <cell line="106" column="78" text=".">
+      <cell line="34" column="4" text="." distance="133" floor="-3"/>
+      <cell line="34" column="26" text="." distance="177" floor="5"/>
+   </cell>
+   <cell line="107" column="74" text="AA">
+      <cell line="106" column="78" text="." distance="6" floor="-1"/>
+   </cell>
+</distances>
