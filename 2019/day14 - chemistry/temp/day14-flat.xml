@@ -1,0 +1,254 @@
+<chemicals>
+   <chemical output="LVRSZ" outquantity="9">
+      <chemical input="LKQCJ" inquantity="5"/>
+      <chemical input="GDSDP" inquantity="1"/>
+      <chemical input="HPXCL" inquantity="2"/>
+   </chemical>
+   <chemical output="KZRTJ" outquantity="3">
+      <chemical input="HPXCL" inquantity="5"/>
+      <chemical input="PVJGF" inquantity="5"/>
+   </chemical>
+   <chemical output="FRWGJ" outquantity="5">
+      <chemical input="LVRSZ" inquantity="7"/>
+      <chemical input="GFSZ" inquantity="2"/>
+   </chemical>
+   <chemical output="LVCXN" outquantity="7">
+      <chemical input="ZPTXL" inquantity="9"/>
+      <chemical input="HGXJH" inquantity="5"/>
+      <chemical input="LQMT" inquantity="9"/>
+   </chemical>
+   <chemical output="VWJS" outquantity="9">
+      <chemical input="LQMT" inquantity="2"/>
+      <chemical input="PVJGF" inquantity="2"/>
+      <chemical input="CKRVN" inquantity="10"/>
+   </chemical>
+   <chemical output="GDSDP" outquantity="7">
+      <chemical input="VRMXL" inquantity="2"/>
+      <chemical input="NBRCS" inquantity="12"/>
+      <chemical input="WSXN" inquantity="2"/>
+   </chemical>
+   <chemical output="TBHVH" outquantity="8">
+      <chemical input="CKRP" inquantity="1"/>
+   </chemical>
+   <chemical output="WKGQS" outquantity="8">
+      <chemical input="SVMNB" inquantity="1"/>
+      <chemical input="KZRTJ" inquantity="2"/>
+   </chemical>
+   <chemical output="BQPG" outquantity="1">
+      <chemical input="LKQCJ" inquantity="6"/>
+      <chemical input="HPXCL" inquantity="8"/>
+      <chemical input="MPZH" inquantity="7"/>
+   </chemical>
+   <chemical output="MPZH" outquantity="7">
+      <chemical input="RCWL" inquantity="1"/>
+   </chemical>
+   <chemical output="KTBRM" outquantity="1">
+      <chemical input="FGCMS" inquantity="4"/>
+      <chemical input="LQMT" inquantity="2"/>
+      <chemical input="LKQCJ" inquantity="1"/>
+   </chemical>
+   <chemical output="PVJGF" outquantity="3">
+      <chemical input="ZTCSK" inquantity="1"/>
+      <chemical input="CXQB" inquantity="6"/>
+      <chemical input="ZBZRT" inquantity="2"/>
+   </chemical>
+   <chemical output="ZBZRT" outquantity="9">
+      <chemical input="DBNLM" inquantity="7"/>
+   </chemical>
+   <chemical output="GFSZ" outquantity="9">
+      <chemical input="BGNQ" inquantity="5"/>
+      <chemical input="WBPD" inquantity="2"/>
+      <chemical input="KTBRM" inquantity="5"/>
+   </chemical>
+   <chemical output="CKFTS" outquantity="8">
+      <chemical input="XQBHG" inquantity="6"/>
+      <chemical input="GPWVC" inquantity="1"/>
+   </chemical>
+   <chemical output="BXVL" outquantity="5">
+      <chemical input="XWLQM" inquantity="1"/>
+      <chemical input="XQBHG" inquantity="29"/>
+      <chemical input="KPNWG" inquantity="7"/>
+   </chemical>
+   <chemical output="HJGR" outquantity="7">
+      <chemical input="TBHVH" inquantity="6"/>
+      <chemical input="KTBRM" inquantity="1"/>
+   </chemical>
+   <chemical output="GPWVC" outquantity="7">
+      <chemical input="LQMT" inquantity="1"/>
+      <chemical input="KPNWG" inquantity="14"/>
+   </chemical>
+   <chemical output="KZGD" outquantity="8">
+      <chemical input="LVCXN" inquantity="18"/>
+      <chemical input="XVLT" inquantity="8"/>
+      <chemical input="KPNWG" inquantity="4"/>
+      <chemical input="LKQCJ" inquantity="13"/>
+      <chemical input="MFJFW" inquantity="12"/>
+      <chemical input="GZNJZ" inquantity="5"/>
+      <chemical input="FLFT" inquantity="1"/>
+      <chemical input="WBPD" inquantity="7"/>
+   </chemical>
+   <chemical output="VWKJ" outquantity="1">
+      <chemical input="TBHVH" inquantity="1"/>
+   </chemical>
+   <chemical output="CKRP" outquantity="2">
+      <chemical input="ORE" inquantity="118"/>
+   </chemical>
+   <chemical output="XQBHG" outquantity="3">
+      <chemical input="LTCQX" inquantity="2"/>
+   </chemical>
+   <chemical output="SMFQ" outquantity="4">
+      <chemical input="GPWVC" inquantity="1"/>
+   </chemical>
+   <chemical output="RCWL" outquantity="4">
+      <chemical input="CKRP" inquantity="6"/>
+   </chemical>
+   <chemical output="FUEL" outquantity="1">
+      <chemical input="LHZMD" inquantity="39"/>
+      <chemical input="CKFTS" inquantity="15"/>
+      <chemical input="HVBW" inquantity="26"/>
+      <chemical input="KTBRM" inquantity="57"/>
+      <chemical input="DFCM" inquantity="13"/>
+      <chemical input="KZGD" inquantity="30"/>
+      <chemical input="FPNB" inquantity="35"/>
+      <chemical input="LKQCJ" inquantity="1"/>
+      <chemical input="HJGR" inquantity="45"/>
+      <chemical input="RCZS" inquantity="22"/>
+      <chemical input="VWKJ" inquantity="34"/>
+   </chemical>
+   <chemical output="LTCQX" outquantity="8">
+      <chemical input="BQPG" inquantity="1"/>
+      <chemical input="BGNQ" inquantity="2"/>
+      <chemical input="WBPD" inquantity="12"/>
+   </chemical>
+   <chemical output="HPXCL" outquantity="2">
+      <chemical input="WSXN" inquantity="2"/>
+   </chemical>
+   <chemical output="XVLT" outquantity="5">
+      <chemical input="GRFPX" inquantity="3"/>
+   </chemical>
+   <chemical output="SVMNB" outquantity="3">
+      <chemical input="LVRSZ" inquantity="1"/>
+   </chemical>
+   <chemical output="ZPTXL" outquantity="9">
+      <chemical input="HLMT" inquantity="6"/>
+   </chemical>
+   <chemical output="GZNJZ" outquantity="5">
+      <chemical input="GFSZ" inquantity="20"/>
+   </chemical>
+   <chemical output="KPNWG" outquantity="9">
+      <chemical input="RCWL" inquantity="1"/>
+   </chemical>
+   <chemical output="FLFT" outquantity="8">
+      <chemical input="BGNQ" inquantity="24"/>
+      <chemical input="KTBRM" inquantity="31"/>
+   </chemical>
+   <chemical output="DBNLM" outquantity="9">
+      <chemical input="VSVG" inquantity="14"/>
+   </chemical>
+   <chemical output="CXQB" outquantity="8">
+      <chemical input="ORE" inquantity="191"/>
+   </chemical>
+   <chemical output="SWVLZ" outquantity="2">
+      <chemical input="ORE" inquantity="115"/>
+   </chemical>
+   <chemical output="CKRVN" outquantity="7">
+      <chemical input="KZRTJ" inquantity="17"/>
+      <chemical input="KPNWG" inquantity="13"/>
+   </chemical>
+   <chemical output="XWLQM" outquantity="4">
+      <chemical input="BQPG" inquantity="9"/>
+   </chemical>
+   <chemical output="MFJFW" outquantity="1">
+      <chemical input="SMFQ" inquantity="4"/>
+      <chemical input="GRFPX" inquantity="2"/>
+   </chemical>
+   <chemical output="DFCM" outquantity="7">
+      <chemical input="CXQB" inquantity="6"/>
+      <chemical input="CKRP" inquantity="4"/>
+      <chemical input="BXVL" inquantity="2"/>
+      <chemical input="GZNJZ" inquantity="5"/>
+      <chemical input="VWJS" inquantity="3"/>
+      <chemical input="FLFT" inquantity="1"/>
+      <chemical input="KPNWG" inquantity="4"/>
+   </chemical>
+   <chemical output="BGNQ" outquantity="6">
+      <chemical input="TBHVH" inquantity="1"/>
+   </chemical>
+   <chemical output="HLMT" outquantity="7">
+      <chemical input="LQMT" inquantity="3"/>
+   </chemical>
+   <chemical output="WBPD" outquantity="4">
+      <chemical input="GDSDP" inquantity="11"/>
+   </chemical>
+   <chemical output="NVDW" outquantity="7">
+      <chemical input="KPNWG" inquantity="2"/>
+      <chemical input="VWJS" inquantity="5"/>
+      <chemical input="NBRCS" inquantity="33"/>
+   </chemical>
+   <chemical output="FGCMS" outquantity="6">
+      <chemical input="GDSDP" inquantity="5"/>
+   </chemical>
+   <chemical output="GRFPX" outquantity="8">
+      <chemical input="GPWVC" inquantity="1"/>
+      <chemical input="BGNQ" inquantity="7"/>
+      <chemical input="FRWGJ" inquantity="1"/>
+   </chemical>
+   <chemical output="SRJHK" outquantity="5">
+      <chemical input="KTBRM" inquantity="23"/>
+      <chemical input="VRMXL" inquantity="11"/>
+      <chemical input="GPWVC" inquantity="6"/>
+   </chemical>
+   <chemical output="HVBW" outquantity="3">
+      <chemical input="XQBHG" inquantity="2"/>
+      <chemical input="GZNJZ" inquantity="1"/>
+   </chemical>
+   <chemical output="WSXN" outquantity="4">
+      <chemical input="ZTCSK" inquantity="1"/>
+   </chemical>
+   <chemical output="FPNB" outquantity="3">
+      <chemical input="XVLT" inquantity="1"/>
+      <chemical input="HLMT" inquantity="5"/>
+      <chemical input="ZPTXL" inquantity="1"/>
+      <chemical input="HVBW" inquantity="2"/>
+      <chemical input="NVDW" inquantity="7"/>
+      <chemical input="WKGQS" inquantity="1"/>
+      <chemical input="LTCQX" inquantity="1"/>
+      <chemical input="MPZH" inquantity="5"/>
+   </chemical>
+   <chemical output="DWBW" outquantity="6">
+      <chemical input="SRJHK" inquantity="16"/>
+   </chemical>
+   <chemical output="HGXJH" outquantity="3">
+      <chemical input="SVMNB" inquantity="1"/>
+      <chemical input="VRMXL" inquantity="1"/>
+   </chemical>
+   <chemical output="VSVG" outquantity="6">
+      <chemical input="ORE" inquantity="133"/>
+   </chemical>
+   <chemical output="LQMT" outquantity="4">
+      <chemical input="NBRCS" inquantity="3"/>
+      <chemical input="FGCMS" inquantity="1"/>
+   </chemical>
+   <chemical output="ZTCSK" outquantity="4">
+      <chemical input="CKRP" inquantity="1"/>
+   </chemical>
+   <chemical output="RCZS" outquantity="1">
+      <chemical input="CKRVN" inquantity="5"/>
+      <chemical input="FLFT" inquantity="1"/>
+   </chemical>
+   <chemical output="LKQCJ" outquantity="9">
+      <chemical input="ZTCSK" inquantity="4"/>
+      <chemical input="RCWL" inquantity="15"/>
+   </chemical>
+   <chemical output="NBRCS" outquantity="8">
+      <chemical input="SWVLZ" inquantity="1"/>
+   </chemical>
+   <chemical output="VRMXL" outquantity="5">
+      <chemical input="CKRP" inquantity="5"/>
+      <chemical input="CXQB" inquantity="14"/>
+   </chemical>
+   <chemical output="LHZMD" outquantity="2">
+      <chemical input="SMFQ" inquantity="1"/>
+      <chemical input="DWBW" inquantity="1"/>
+   </chemical>
+</chemicals>

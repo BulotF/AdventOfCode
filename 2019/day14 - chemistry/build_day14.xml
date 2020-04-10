@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="enoBuild" basedir="." default="day14">
+
+    <!-- Le programme principal est un pipeline XSLT : un enchaînement de transformations XSLT -->
+
+    <target name="day14">
+        <!-- Les transformations doivent prendre en entrée un fichier xml.
+    Lorsque le besoin concerne uniquement un fichier non XML, 
+    on est obligé de les appliquer à un ficher XML quand même pour avoir une balise racine -->
+        <xslt in="../empty.xml"
+            out="temp/day14-flat.xml"
+            style="xslt/lecture_texte.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+            <!-- l'adresse du paramètre est relative au programme xslt -->
+            <param name="text-file" expression="../in/day14.txt"/>
+        </xslt>
+        <!-- Le fichier en sortie de la première transformation a un format adapté à l'optimisation de la transformation suivante -->
+        <!-- on crée une structure arborescente à partir de la structure "à plat" -->
+        <xslt in="temp/day14-flat.xml"
+            out="temp/day14-treed.xml"
+            style="xslt/day14.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+        </xslt>
+        <!-- Cette structure arborescente permet de calculer pour chaque composant 
+            à partir de quelle étape il n'existe plus en tant que réactif dans une réaction chimique nécessaire à la production de FUEL -->
+        <xslt in="temp/day14-flat.xml"
+            out="temp/day14-depth.xml"
+            style="xslt/day14-depth.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+            <param name="treed" expression="../temp/day14-treed.xml"/>
+        </xslt>
+        <!-- Calcul du nombre minimum de ORE pour 1 FUEL -->
+        <xslt in="temp/day14-flat.xml"
+            out="out/day14-1.xml"
+            style="xslt/day14-1.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+            <param name="depth-file" expression="../temp/day14-depth.xml"/>
+        </xslt>
+        
+        <!-- Calcul du nombre minimum de ORE pour 1 FUEL -->
+        <xslt in="temp/day14-flat.xml"
+            out="out/day14-2.xml"
+            style="xslt/day14-2.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+            <param name="depth-file" expression="../temp/day14-depth.xml"/>
+        </xslt>
+    </target>
+    
+</project>
