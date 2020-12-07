@@ -1,0 +1,497 @@
+<Bags>
+   <Bag quantity="1" color="plaid purple">
+      <Bag quantity="4" color="striped violet">
+         <Bag quantity="8" color="mirrored tomato">
+            <Bag quantity="24" color="light crimson"/>
+         </Bag>
+         <Bag quantity="8" color="dull fuchsia">
+            <Bag quantity="16" color="shiny coral"/>
+         </Bag>
+         <Bag quantity="16" color="posh lavender">
+            <Bag quantity="32" color="faded cyan"/>
+         </Bag>
+         <Bag quantity="16" color="light brown"/>
+         <Bag quantity="4" color="mirrored purple">
+            <Bag quantity="8" color="mirrored gold"/>
+         </Bag>
+         <Bag quantity="20" color="muted lime">
+            <Bag quantity="60" color="drab magenta">
+               <Bag quantity="300" color="pale lavender">
+                  <Bag quantity="1200" color="dull black"/>
+               </Bag>
+            </Bag>
+            <Bag quantity="20" color="wavy maroon"/>
+         </Bag>
+      </Bag>
+      <Bag quantity="3" color="striped crimson">
+         <Bag quantity="15" color="dull plum"/>
+         <Bag quantity="9" color="shiny lime">
+            <Bag quantity="18" color="posh coral"/>
+            <Bag quantity="18" color="dim red"/>
+            <Bag quantity="45" color="pale aqua"/>
+         </Bag>
+         <Bag quantity="6" color="dotted crimson">
+            <Bag quantity="18" color="light gray"/>
+            <Bag quantity="18" color="shiny lime">
+               <Bag quantity="36" color="posh coral"/>
+               <Bag quantity="36" color="dim red"/>
+               <Bag quantity="90" color="pale aqua"/>
+            </Bag>
+         </Bag>
+         <Bag quantity="12" color="drab turquoise">
+            <Bag quantity="12" color="muted tomato">
+               <Bag quantity="60" color="clear crimson">
+                  <Bag quantity="300" color="dotted aqua"/>
+               </Bag>
+            </Bag>
+            <Bag quantity="36" color="dim crimson"/>
+            <Bag quantity="36" color="mirrored yellow">
+               <Bag quantity="108" color="striped gold">
+                  <Bag quantity="108" color="plaid violet"/>
+                  <Bag quantity="324" color="drab coral">
+                     <Bag quantity="1620" color="mirrored brown"/>
+                  </Bag>
+               </Bag>
+               <Bag quantity="72" color="drab olive"/>
+               <Bag quantity="180" color="bright red">
+                  <Bag quantity="180" color="shiny bronze"/>
+               </Bag>
+            </Bag>
+            <Bag quantity="36" color="light turquoise">
+               <Bag quantity="144" color="striped lime">
+                  <Bag quantity="144" color="pale gray">
+                     <Bag quantity="288" color="pale lavender">
+                        <Bag quantity="1152" color="dull black"/>
+                     </Bag>
+                  </Bag>
+               </Bag>
+               <Bag quantity="180" color="clear plum"/>
+            </Bag>
+         </Bag>
+      </Bag>
+   </Bag>
+   <Bag quantity="2" color="posh tomato"/>
+   <Bag quantity="1" color="striped fuchsia">
+      <Bag quantity="1" color="bright orange">
+         <Bag quantity="5" color="faded tomato"/>
+         <Bag quantity="2" color="drab magenta">
+            <Bag quantity="10" color="pale lavender">
+               <Bag quantity="40" color="dull black"/>
+            </Bag>
+         </Bag>
+         <Bag quantity="2" color="dull turquoise"/>
+         <Bag quantity="4" color="vibrant lime"/>
+         <Bag quantity="5" color="vibrant magenta">
+            <Bag quantity="15" color="dull bronze"/>
+            <Bag quantity="5" color="drab violet">
+               <Bag quantity="5" color="drab brown">
+                  <Bag quantity="5" color="plaid olive"/>
+               </Bag>
+               <Bag quantity="25" color="striped lime">
+                  <Bag quantity="25" color="pale gray">
+                     <Bag quantity="50" color="pale lavender">
+                        <Bag quantity="200" color="dull black"/>
+                     </Bag>
+                  </Bag>
+               </Bag>
+            </Bag>
+         </Bag>
+         <Bag quantity="4" color="posh violet">
+            <Bag quantity="12" color="drab green"/>
+         </Bag>
+         <Bag quantity="5" color="plaid beige">
+            <Bag quantity="5" color="faded aqua">
+               <Bag quantity="20" color="drab cyan"/>
+            </Bag>
+            <Bag quantity="15" color="dim plum"/>
+            <Bag quantity="10" color="muted orange"/>
+            <Bag quantity="25" color="muted olive"/>
+            <Bag quantity="25" color="wavy coral">
+               <Bag quantity="25" color="wavy salmon"/>
+            </Bag>
+         </Bag>
+      </Bag>
+   </Bag>
+   <Bag quantity="4" color="posh tan"/>
+   <Bag quantity="3" color="plaid gray">
+      <Bag quantity="12" color="pale salmon">
+         <Bag quantity="12" color="muted white">
+            <Bag quantity="36" color="clear gold">
+               <Bag quantity="180" color="muted magenta"/>
+               <Bag quantity="144" color="mirrored white"/>
+            </Bag>
+            <Bag quantity="12" color="wavy white">
+               <Bag quantity="12" color="pale crimson"/>
+            </Bag>
+         </Bag>
+         <Bag quantity="48" color="bright gray">
+            <Bag quantity="96" color="faded olive"/>
+            <Bag quantity="48" color="wavy magenta">
+               <Bag quantity="240" color="dim purple"/>
+            </Bag>
+            <Bag quantity="192" color="dull turquoise"/>
+            <Bag quantity="240" color="plaid black">
+               <Bag quantity="1200" color="faded teal"/>
+               <Bag quantity="720" color="muted green"/>
+               <Bag quantity="960" color="striped black">
+                  <Bag quantity="960" color="dotted maroon"/>
+                  <Bag quantity="960" color="plaid olive"/>
+               </Bag>
+               <Bag quantity="1200" color="dotted violet">
+                  <Bag quantity="3600" color="pale lavender">
+                     <Bag quantity="14400" color="dull black"/>
+                  </Bag>
+                  <Bag quantity="4800" color="striped chartreuse"/>
+               </Bag>
+            </Bag>
+            <Bag quantity="96" color="dull crimson">
+               <Bag quantity="96" color="bright white"/>
+               <Bag quantity="480" color="muted brown"/>
+            </Bag>
+            <Bag quantity="96" color="clear purple">
+               <Bag quantity="192" color="drab green"/>
+               <Bag quantity="288" color="posh beige">
+                  <Bag quantity="576" color="pale green">
+                     <Bag quantity="2304" color="dull purple"/>
+                  </Bag>
+                  <Bag quantity="288" color="vibrant lime"/>
+               </Bag>
+            </Bag>
+         </Bag>
+         <Bag quantity="24" color="faded purple"/>
+         <Bag quantity="12" color="shiny aqua">
+            <Bag quantity="12" color="wavy green"/>
+            <Bag quantity="36" color="dark cyan">
+               <Bag quantity="36" color="wavy fuchsia">
+                  <Bag quantity="36" color="clear silver"/>
+               </Bag>
+               <Bag quantity="72" color="pale gold">
+                  <Bag quantity="72" color="bright teal">
+                     <Bag quantity="288" color="dim plum"/>
+                  </Bag>
+                  <Bag quantity="216" color="faded violet"/>
+               </Bag>
+            </Bag>
+            <Bag quantity="48" color="drab coral">
+               <Bag quantity="240" color="mirrored brown"/>
+            </Bag>
+         </Bag>
+         <Bag quantity="48" color="striped chartreuse"/>
+      </Bag>
+      <Bag quantity="12" color="dotted plum">
+         <Bag quantity="12" color="light indigo">
+            <Bag quantity="48" color="dim fuchsia"/>
+            <Bag quantity="24" color="plaid lime">
+               <Bag quantity="120" color="striped coral"/>
+            </Bag>
+         </Bag>
+         <Bag quantity="12" color="dark salmon">
+            <Bag quantity="60" color="shiny tan">
+               <Bag quantity="60" color="dim coral"/>
+               <Bag quantity="180" color="mirrored lavender">
+                  <Bag quantity="360" color="dotted turquoise"/>
+               </Bag>
+               <Bag quantity="300" color="striped brown"/>
+            </Bag>
+         </Bag>
+         <Bag quantity="60" color="dotted yellow">
+            <Bag quantity="300" color="dim beige">
+               <Bag quantity="1200" color="vibrant purple"/>
+               <Bag quantity="900" color="clear turquoise">
+                  <Bag quantity="1800" color="faded teal"/>
+                  <Bag quantity="900" color="plaid maroon">
+                     <Bag quantity="1800" color="vibrant white"/>
+                  </Bag>
+               </Bag>
+               <Bag quantity="300" color="dull white">
+                  <Bag quantity="1500" color="faded olive"/>
+                  <Bag quantity="1500" color="posh indigo"/>
+               </Bag>
+            </Bag>
+            <Bag quantity="60" color="drab silver">
+               <Bag quantity="120" color="shiny tomato"/>
+               <Bag quantity="120" color="vibrant violet">
+                  <Bag quantity="600" color="vibrant green">
+                     <Bag quantity="2400" color="plaid chartreuse">
+                        <Bag quantity="2400" color="dull purple"/>
+                        <Bag quantity="4800" color="dim crimson"/>
+                     </Bag>
+                  </Bag>
+               </Bag>
+            </Bag>
+            <Bag quantity="300" color="pale lime">
+               <Bag quantity="300" color="dark brown">
+                  <Bag quantity="600" color="bright maroon"/>
+                  <Bag quantity="900" color="muted olive"/>
+                  <Bag quantity="900" color="shiny turquoise"/>
+               </Bag>
+            </Bag>
+         </Bag>
+      </Bag>
+      <Bag quantity="6" color="dim turquoise"/>
+      <Bag quantity="9" color="dim yellow">
+         <Bag quantity="9" color="pale aqua"/>
+         <Bag quantity="9" color="muted cyan"/>
+      </Bag>
+   </Bag>
+   <Bag quantity="1" color="dotted beige">
+      <Bag quantity="3" color="plaid silver"/>
+      <Bag quantity="1" color="pale plum"/>
+      <Bag quantity="3" color="clear tan">
+         <Bag quantity="15" color="faded cyan"/>
+         <Bag quantity="6" color="muted silver"/>
+         <Bag quantity="15" color="bright red">
+            <Bag quantity="15" color="shiny bronze"/>
+         </Bag>
+         <Bag quantity="12" color="drab cyan"/>
+      </Bag>
+      <Bag quantity="1" color="dim silver">
+         <Bag quantity="2" color="drab yellow">
+            <Bag quantity="4" color="vibrant white"/>
+            <Bag quantity="2" color="drab tomato"/>
+         </Bag>
+         <Bag quantity="4" color="wavy maroon"/>
+      </Bag>
+      <Bag quantity="3" color="striped bronze"/>
+      <Bag quantity="3" color="wavy lime">
+         <Bag quantity="9" color="muted white">
+            <Bag quantity="27" color="clear gold">
+               <Bag quantity="135" color="muted magenta"/>
+               <Bag quantity="108" color="mirrored white"/>
+            </Bag>
+            <Bag quantity="9" color="wavy white">
+               <Bag quantity="9" color="pale crimson"/>
+            </Bag>
+         </Bag>
+         <Bag quantity="15" color="mirrored fuchsia"/>
+         <Bag quantity="6" color="mirrored brown"/>
+      </Bag>
+   </Bag>
+   <Bag quantity="5" color="clear tomato">
+      <Bag quantity="25" color="pale crimson"/>
+      <Bag quantity="5" color="shiny cyan"/>
+      <Bag quantity="5" color="dark blue">
+         <Bag quantity="10" color="dim lime"/>
+      </Bag>
+      <Bag quantity="25" color="shiny bronze"/>
+      <Bag quantity="10" color="posh salmon">
+         <Bag quantity="10" color="striped turquoise">
+            <Bag quantity="10" color="dull blue">
+               <Bag quantity="50" color="vibrant plum">
+                  <Bag quantity="100" color="shiny bronze"/>
+                  <Bag quantity="50" color="striped red"/>
+               </Bag>
+               <Bag quantity="50" color="striped red"/>
+            </Bag>
+         </Bag>
+      </Bag>
+      <Bag quantity="20" color="striped chartreuse"/>
+   </Bag>
+   <Bag quantity="4" color="mirrored yellow">
+      <Bag quantity="12" color="striped gold">
+         <Bag quantity="12" color="plaid violet"/>
+         <Bag quantity="36" color="drab coral">
+            <Bag quantity="180" color="mirrored brown"/>
+         </Bag>
+      </Bag>
+      <Bag quantity="8" color="drab olive"/>
+      <Bag quantity="20" color="bright red">
+         <Bag quantity="20" color="shiny bronze"/>
+      </Bag>
+   </Bag>
+   <Bag quantity="3" color="bright olive">
+      <Bag quantity="9" color="dark bronze">
+         <Bag quantity="27" color="vibrant teal"/>
+      </Bag>
+      <Bag quantity="12" color="shiny blue">
+         <Bag quantity="24" color="faded maroon">
+            <Bag quantity="24" color="dotted white"/>
+         </Bag>
+         <Bag quantity="48" color="shiny chartreuse">
+            <Bag quantity="96" color="faded tomato"/>
+            <Bag quantity="96" color="posh indigo"/>
+         </Bag>
+         <Bag quantity="24" color="drab white">
+            <Bag quantity="72" color="dull lime"/>
+            <Bag quantity="96" color="vibrant brown">
+               <Bag quantity="192" color="plaid red"/>
+               <Bag quantity="96" color="shiny black"/>
+               <Bag quantity="192" color="bright plum"/>
+               <Bag quantity="384" color="dim plum"/>
+            </Bag>
+         </Bag>
+      </Bag>
+      <Bag quantity="12" color="faded brown">
+         <Bag quantity="60" color="clear turquoise">
+            <Bag quantity="120" color="faded teal"/>
+            <Bag quantity="60" color="plaid maroon">
+               <Bag quantity="120" color="vibrant white"/>
+            </Bag>
+         </Bag>
+         <Bag quantity="12" color="dotted purple">
+            <Bag quantity="36" color="dotted gray"/>
+         </Bag>
+         <Bag quantity="48" color="vibrant magenta">
+            <Bag quantity="144" color="dull bronze"/>
+            <Bag quantity="48" color="drab violet">
+               <Bag quantity="48" color="drab brown">
+                  <Bag quantity="48" color="plaid olive"/>
+               </Bag>
+               <Bag quantity="240" color="striped lime">
+                  <Bag quantity="240" color="pale gray">
+                     <Bag quantity="480" color="pale lavender">
+                        <Bag quantity="1920" color="dull black"/>
+                     </Bag>
+                  </Bag>
+               </Bag>
+            </Bag>
+         </Bag>
+         <Bag quantity="12" color="posh crimson">
+            <Bag quantity="48" color="mirrored lime"/>
+         </Bag>
+         <Bag quantity="48" color="wavy maroon"/>
+      </Bag>
+      <Bag quantity="6" color="dim black">
+         <Bag quantity="24" color="pale teal">
+            <Bag quantity="96" color="bright coral"/>
+            <Bag quantity="48" color="dotted turquoise"/>
+         </Bag>
+      </Bag>
+   </Bag>
+   <Bag quantity="4" color="drab gold">
+      <Bag quantity="20" color="muted maroon">
+         <Bag quantity="100" color="mirrored plum">
+            <Bag quantity="500" color="shiny brown">
+               <Bag quantity="1500" color="bright coral"/>
+               <Bag quantity="1000" color="pale silver">
+                  <Bag quantity="5000" color="dull black"/>
+                  <Bag quantity="5000" color="posh violet">
+                     <Bag quantity="15000" color="drab green"/>
+                  </Bag>
+               </Bag>
+               <Bag quantity="2000" color="bright magenta">
+                  <Bag quantity="6000" color="dark red">
+                     <Bag quantity="24000" color="dotted olive"/>
+                     <Bag quantity="12000" color="clear olive">
+                        <Bag quantity="36000" color="wavy chartreuse"/>
+                     </Bag>
+                  </Bag>
+                  <Bag quantity="4000" color="shiny maroon">
+                     <Bag quantity="4000" color="pale indigo">
+                        <Bag quantity="16000" color="dotted teal">
+                           <Bag quantity="16000" color="wavy lavender"/>
+                        </Bag>
+                        <Bag quantity="16000" color="faded beige">
+                           <Bag quantity="32000" color="striped yellow"/>
+                           <Bag quantity="64000" color="faded green"/>
+                        </Bag>
+                     </Bag>
+                  </Bag>
+               </Bag>
+               <Bag quantity="2500" color="posh cyan">
+                  <Bag quantity="2500" color="dull magenta">
+                     <Bag quantity="10000" color="pale white"/>
+                  </Bag>
+               </Bag>
+               <Bag quantity="500" color="clear purple">
+                  <Bag quantity="1000" color="drab green"/>
+                  <Bag quantity="1500" color="posh beige">
+                     <Bag quantity="3000" color="pale green">
+                        <Bag quantity="12000" color="dull purple"/>
+                     </Bag>
+                     <Bag quantity="1500" color="vibrant lime"/>
+                  </Bag>
+               </Bag>
+            </Bag>
+         </Bag>
+         <Bag quantity="100" color="dim green">
+            <Bag quantity="200" color="bright gold">
+               <Bag quantity="600" color="light orange">
+                  <Bag quantity="2400" color="dim blue"/>
+                  <Bag quantity="1200" color="mirrored brown"/>
+               </Bag>
+               <Bag quantity="200" color="wavy tomato">
+                  <Bag quantity="1000" color="light cyan"/>
+                  <Bag quantity="800" color="posh magenta">
+                     <Bag quantity="1600" color="posh gray"/>
+                  </Bag>
+               </Bag>
+            </Bag>
+         </Bag>
+      </Bag>
+      <Bag quantity="12" color="dull red"/>
+      <Bag quantity="12" color="drab olive"/>
+      <Bag quantity="20" color="striped silver">
+         <Bag quantity="40" color="mirrored salmon">
+            <Bag quantity="80" color="bright beige"/>
+            <Bag quantity="80" color="posh turquoise">
+               <Bag quantity="160" color="vibrant teal"/>
+               <Bag quantity="400" color="drab beige"/>
+            </Bag>
+         </Bag>
+         <Bag quantity="60" color="plaid brown">
+            <Bag quantity="180" color="drab fuchsia"/>
+         </Bag>
+         <Bag quantity="40" color="light yellow">
+            <Bag quantity="80" color="pale orange">
+               <Bag quantity="400" color="wavy silver">
+                  <Bag quantity="2000" color="shiny black"/>
+               </Bag>
+               <Bag quantity="240" color="dotted maroon"/>
+            </Bag>
+            <Bag quantity="200" color="muted blue">
+               <Bag quantity="200" color="striped coral"/>
+            </Bag>
+            <Bag quantity="40" color="muted green"/>
+         </Bag>
+         <Bag quantity="100" color="dark green"/>
+      </Bag>
+   </Bag>
+   <Bag quantity="4" color="posh salmon">
+      <Bag quantity="4" color="striped turquoise">
+         <Bag quantity="4" color="dull blue">
+            <Bag quantity="20" color="vibrant plum">
+               <Bag quantity="40" color="shiny bronze"/>
+               <Bag quantity="20" color="striped red"/>
+            </Bag>
+            <Bag quantity="20" color="striped red"/>
+         </Bag>
+      </Bag>
+   </Bag>
+   <Bag quantity="1" color="shiny plum">
+      <Bag quantity="3" color="striped gray">
+         <Bag quantity="12" color="dim tomato">
+            <Bag quantity="12" color="bright red">
+               <Bag quantity="12" color="shiny bronze"/>
+            </Bag>
+         </Bag>
+         <Bag quantity="12" color="posh maroon"/>
+      </Bag>
+      <Bag quantity="3" color="striped olive"/>
+      <Bag quantity="3" color="striped beige">
+         <Bag quantity="6" color="dim lime"/>
+      </Bag>
+   </Bag>
+   <Bag quantity="3" color="posh bronze">
+      <Bag quantity="15" color="muted crimson">
+         <Bag quantity="75" color="mirrored silver">
+            <Bag quantity="375" color="wavy lime">
+               <Bag quantity="1125" color="muted white">
+                  <Bag quantity="3375" color="clear gold">
+                     <Bag quantity="16875" color="muted magenta"/>
+                     <Bag quantity="13500" color="mirrored white"/>
+                  </Bag>
+                  <Bag quantity="1125" color="wavy white">
+                     <Bag quantity="1125" color="pale crimson"/>
+                  </Bag>
+               </Bag>
+               <Bag quantity="1875" color="mirrored fuchsia"/>
+               <Bag quantity="750" color="mirrored brown"/>
+            </Bag>
+         </Bag>
+         <Bag quantity="45" color="bright aqua">
+            <Bag quantity="225" color="clear teal"/>
+         </Bag>
+      </Bag>
+   </Bag>
+</Bags>

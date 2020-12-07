@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="enoBuild" basedir="." default="day">
+
+    <!-- Le programme principal est un pipeline XSLT : un enchaînement de transformations XSLT -->
+
+    <target name="day">
+        <!-- Les transformations doivent prendre en entrée un fichier xml.
+    Lorsque le besoin concerne uniquement un fichier non XML, 
+    on est obligé de les appliquer à un ficher XML quand même pour avoir une balise racine -->
+        <xslt in="../empty.xml"
+            out="temp/day7.xml"
+            style="xslt/lecture_texte.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+            <!-- l'adresse du paramètre est relative au programme xslt -->
+            <param name="text-file" expression="../in/day7.txt"/>
+        </xslt>
+        <xslt in="temp/day7.xml"
+            out="temp/day7-treed-up.xml"
+            style="xslt/day7.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+        </xslt>
+        <xslt in="temp/day7-treed-up.xml"
+            out="out/day7-sol1.xml"
+            style="xslt/day7-sol1.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+        </xslt>
+        <xslt in="temp/day7.xml"
+            out="temp/day7-treed-down.xml"
+            style="xslt/day7-2.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+        </xslt>
+        <xslt in="temp/day7-treed-down.xml"
+            out="out/day7-sol2.xml"
+            style="xslt/day7-sol2.xsl"
+            force="true" classpath="../../lib/saxon9he.jar">
+        </xslt>
+    </target>
+    
+</project>
